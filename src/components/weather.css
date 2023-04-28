@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.block {
+    position: relative;
+    top: 200px;
+}
+
+.weatherApp {
+    background-image: url('https://www.wallpaperbetter.com/wallpaper/721/984/836/sunrise-sea-beach-clouds-sky-1080P-wallpaper-middle-size.jpg');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.temp_information h2 {
+    font-size: 80px;
+}
+
+.search {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.search input {
+    height: 40px;
+    width: 400px;
+}
+
+.search button {
+    padding: 0px 30px;
+    font-size: 20px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
+
+@media screen and (max-width=768px) {
+    .weatherApp {
+        display: block;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width=600px) {
+    .weatherApp {
+        display: block;
+        justify-content: center;
+    }
+}
